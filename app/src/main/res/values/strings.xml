@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Reminder Me</string>
+    <string name="simpan" translatable="true">Simpan</string>
+    <string name="kembali" translatable="true">Kembali</string>
+    <string name="tambah_aktivitas" translatable="true">Tambah Aktivitas</string>
+    <string name="masukkan_aktivitas" translatable="true">Masukkan Aktivitas</string>
+    <string name="waktu_nol" translatable="true">00:00</string>
+    <string name="login" translatable="true">Login</string>
+    <string name="register" translatable="true">Register</string>
+    <string name="email" translatable="true">E-mail</string>
+    <string name="password" translatable="true">Password</string>
+    <string name="senin" translatable="true">Senin</string>
+    <string name="selasa" translatable="true">Selasa</string>
+    <string name="rabu" translatable="true">Rabu</string>
+    <string name="kamis" translatable="true">Kamis</string>
+    <string name="jumat" translatable="true">Jum\'at</string>
+    <string name="sabtu" translatable="true">Sabtu</string>
+    <string name="minggu" translatable="true">Minggu</string>
+</resources>

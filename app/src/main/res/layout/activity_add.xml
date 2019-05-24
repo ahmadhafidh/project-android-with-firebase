@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/abu">
+
+    <TextView
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tambah_aktivitas"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_aktivitas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/aktivitas"
+        android:drawablePadding="12dp"
+        android:hint="@string/masukkan_aktivitas"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textColorHint="#fff"
+        tools:ignore="Autofill" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+
+    <EditText
+        android:id="@+id/et_waktu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/transparent"
+        android:drawableStart="@drawable/time"
+        android:drawablePadding="12dp"
+        android:hint="@string/waktu_nol"
+        android:inputType="time"
+        android:padding="8dp"
+        android:textColorHint="#fff"
+        tools:ignore="Autofill" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+
+    <Button
+        android:textAlignment="center"
+        android:id="@+id/btn_kembali"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/background_login"
+        android:text="@string/kembali"
+        android:textAllCaps="false"
+        android:textColor="#f16f7d"
+        android:textSize="18sp" />
+
+    <Button
+        android:textAlignment="center"
+        android:id="@+id/btn_simpan_baru"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background_kamis"
+        android:text="@string/simpan"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="18sp"/>
+
+</LinearLayout>
