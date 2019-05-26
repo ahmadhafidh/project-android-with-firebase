@@ -42,43 +42,6 @@
           ]
         }
       }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:754244178824:android:6689d057a7b0ac05",
-        "android_client_info": {
-          "package_name": "com.ahmadfathan.reminderme"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "754244178824-mbmbrljlng44ut3696uq6u1dqnlo15t6.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.ahmadfathan.reminderme",
-            "certificate_hash": "d61707ffaff3f3422db175c90f473bd97ea1190b"
-          }
-        },
-        {
-          "client_id": "754244178824-oikk4ju4rht8kehl6otckrih5551427q.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCOZbgikelBjcyKecYeljcb6kjmHBIHEc4"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "754244178824-oikk4ju4rht8kehl6otckrih5551427q.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
     }
   ],
   "configuration_version": "1"
